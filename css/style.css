@@ -1,0 +1,18 @@
+span.error
+{
+	margin: 8px 0 0 0;
+	padding: 0;
+	height: 1%;
+	
+	color: #FF0000;
+}
+
+span.success
+{
+	margin: 8px 0 0 0;
+	padding: 0;
+	height: 1%;
+	
+	color: #7b912b;
+}
+

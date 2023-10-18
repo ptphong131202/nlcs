@@ -1,0 +1,46 @@
+.logo {
+    width: 120px;
+    border-radius: 5px;
+    height: 70px;
+    margin-left: 60px;
+}
+
+.current_price {
+    color: red;
+    text-align: center;
+}
+
+.price-last {
+    font-size: 12px;
+}
+
+.header {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.desc {
+    display: block;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    height: 25px;
+    line-height: 25px;
+    margin: 0;
+}
+
+.card {
+    position: relative;
+    top: 0;
+    transition: top 0.2s linear;
+}
+
+.card:hover {
+    top: -10px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.img-fluid {
+    height: 150px;
+    width: 100%;
+}
